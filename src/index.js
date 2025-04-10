@@ -21,18 +21,18 @@ const data = {
   links: [
     {
       name: "blog",
-      url: "https://example.com/",
+      url: "https://preview--code-stream-vibes-blog.lovable.app/",
       color: "red",
       emoji: "📖",
     },
     {
       name: "podcast",
-      url: "https://example.com/",
+      url: "https://preview--code-stream-vibes-blog.lovable.app/",
       color: "yellow",
       emoji: "💬",
     },
   ],
-  footer: "Made with Love on Colombia",
+  footer: "Made with Love on Peru",
 };
 
 const main = () => {
