@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "web-dev-server --config web-dev-server.config.js",
-    "build": "rollup -c"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
